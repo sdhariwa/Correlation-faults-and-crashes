@@ -1,7 +1,6 @@
-# hackathon-phoenix
+# A Predictive ML Model: Correlation of Faults & Crashes
 This is a SOAR hackathon project for Team Phoenix.
 
-### A Predictive ML Model: Correlation of Faults & Crashes
 #### Problem Statement 
 The lack of correlation between system faults and crashes in CX Cloud hinders experience, necessitating a comprehensive correlation to enhance system performance. How might we prevent escalation of system issues and provide actionable insights to user?
 
