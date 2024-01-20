@@ -7,6 +7,12 @@ The lack of correlation between system faults and crashes in CX Cloud hinders ex
 #### Solution Proposed
 The solution is provided by ideating and building a predictive ML model quoting likeliness of an asset's crash % initiating timely preventive measures from user’s end.
 
+#### Contributing Members
+- Preksha Gupta ([prekgupt@cisco.com](mailto:prekgupt@cisco.com))
+- Nitish Kumar ([nitisku4@cisco.com](mailto:nitisku4@cisco.com))
+- Srishti Dhariwal ([sdhariwa@cisco.com](mailto:sdhariwa@cisco.com))
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Steps to run
