@@ -14,7 +14,25 @@ The solution is provided by ideating and building a predictive ML model quoting 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Notebooks In Brief
 
+- To enhance the usability of data collected from Automated Faults Management (AFM) and Risk Mitigation Checks (RMC), the `Data Transformation.ipynb` notebook is used to convert AFM data from a text file to tabular CSV format.
+- `Data Preprocessing.ipynb` addressed the unknown instances by dropping the entire column from the dataset. Data is merged using one of the common identifier, product_id.
+-  In handling a dataset entirely composed of natural language, categorical columns underwent LabelEncoding to enable compatibility with Machine Learning models. To access feature relevance concerning the 'crashed' target, correlation analysis was employed. Columns exhibiting NaN correlation, indicative of zero variance, were dropped due to a lack of data variation. Few redundant columns, contributing minimally to crash determination, were also excluded. The dataset is then split in a 60:40 ratio. The implemented models include:
+
+    1. Support Vector Regression
+
+    2. Linear Regression
+
+    3. Gradient Boost Regression
+
+    4. Random Forest Regression
+
+    5. Voting Regression with Gradient Boost, Random Forest and Linear Regression 
+
+    6. Voting Regression with Gradient Boost, Random Forest, Linear and Support Vector Regression.
+
+    Normalization was applied when predicted values fell outside the [0, 1] range. Evaluation metrics such as Mean Absolute Error, Mean Square Error and R-Squared Error are utilised. The `Models.ipynb` notebook executed these tasks, concluding with insightful graphical visualisations crafted using the Matplotlib package.
 #### Steps to run
 1. Install Anaconda:
     
@@ -65,3 +83,9 @@ The solution is provided by ideating and building a predictive ML model quoting 
     • After you're done, go back to the Jupyter Notebook dashboard in your web browser.
     
     • Click the "Quit" button next to the running notebook to shut down the Jupyter Notebook.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Happy experimenting with more Machine Learning models 💻 
+
+Do reach out to us via email for any suggestions and questions 📧
